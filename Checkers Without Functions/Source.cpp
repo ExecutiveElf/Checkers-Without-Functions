@@ -8,9 +8,11 @@
 #include <iostream>
 using namespace std;
 
+//Defining the strings
 const string Chec = "   *   *   *   *";
 const string Kers = " *   *   *   *   ";
 
+//Assembling the board by alternating between those two strings.
 int main()
 {
 	cout << Chec << endl;
